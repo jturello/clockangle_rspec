@@ -16,7 +16,7 @@ describe('String#clock_angle') do
     expect("12:15".clock_angle()).to(eq(82.5))
   end
 
-  it('is equal to 165 degrees when time equals 12:15') do
+  it('is equal to 165.0 degrees when time equals 12:15') do
     expect("12:30".clock_angle()).to(eq(165.0))
   end
 
